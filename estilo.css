@@ -1,0 +1,240 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background: rgba(0,0,0,0.7);}
+.imagenes{
+    display: flex;
+    gap: 1rem;
+}
+.imagenes>img{
+    flex: 1;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+header img{width: 420px; transition: all .5s;}
+header img:hover{
+    transform: scale(1.4) rotate(12deg);
+}
+nav {
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    margin: auto;
+    position:absolute;
+    z-index: 100;
+  }
+  nav {
+    float: left;
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  nav ul li {
+    width: auto;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: aquamarine;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+  .ofertas{
+    color: aquamarine;
+  }
+  table tr td {
+    border-collapse: collapse;
+    background: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
+ }
+ td img{
+    width: 400px;
+    height: 300px;
+ }
+ .cuatro-img{
+    width: 820px;
+    height: 300px;
+ }
+ .uno-img{
+    width: 420px;
+    height: 630px;
+ }
+ section h4{
+  text-align: center;
+  color: aquamarine;
+   }
+.datos-adicional{
+  width: 600px;
+  background: #24303c;
+  padding: 30px;
+  margin:  auto;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  color: aquamarine;
+  box-shadow: 7px 13px 37px #000;
+}
+.datos-adicional h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.datos-adicional .tex4{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: aquamarine;
+}
+
+.datos-adicional p{
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.datos-adicional a{
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.datos-adicional a:hover{
+  color: aquamarine;
+  text-decoration: underline;
+}
+.datos-adicional .boton1{
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color:aquamarine;
+  margin: 16px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.datos-adicional .caja{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: aquamarine;
+  line-height: 40px;
+}
+
+.datos-adicional .radio{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: aquamarine;
+  line-height: 40px;
+}
+footer{
+  display: flex;
+  flex-wrap: nowrap;
+  background: #212f4a;}
+
+footer> p {
+  background-color: #212f4a;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #cae0f3;
+}
+h1{
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  color: aquamarine;
+}
+.linea{
+  background: #eca023;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+.galeria{
+  background: #d4d1c2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+.galeria img{
+width: 100%;
+height: 250px;
+}
+.galeria a{
+  text-decoration: none;
+}
+.description{
+  color: #3c2e0c;
+  font-size: 20px;
+  text-align: center;
+}
+.description input{
+  background: #66634a;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.galeria-tienda{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  margin: auto;
+  grid-gap: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+.galeria-tienda img{
+  width: 600px;
+  border-radius: 10px;
+}
+.galeria-tienda p{
+  background: #66634a;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  margin: 16px 0;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+.galeria-tienda > p{
+width: 600px;
+}
